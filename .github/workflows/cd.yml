@@ -126,5 +126,3 @@ jobs:
           files: |
             **/*.tar.gz
             **/*.sha512
-        env:
-          GITHUB_TOKEN: ${{ secrets.SPOTIFYD_TOKEN }}
