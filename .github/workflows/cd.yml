@@ -5,6 +5,9 @@ on:
     tags:
       - 'v*.*.*'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Building ${{matrix.os}}-${{ matrix.arch }} (${{ matrix.artifact_type }})
